@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-14T12:37:20.756Z</updated>
+  <updated>2022-01-14T13:00:31.093Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="http://example.com/2022/01/14/About-The-Git/"/>
     <id>http://example.com/2022/01/14/About-The-Git/</id>
     <published>2022-01-14T12:22:16.000Z</published>
-    <updated>2022-01-14T12:37:20.756Z</updated>
+    <updated>2022-01-14T13:00:31.093Z</updated>
     
-    <content type="html"><![CDATA[<p>##什么是git</p><p>在我们运用hexo搭建个人博客的时候，不难发现需要运用到一些关于github仓库的一些知识，因此在这里进行一些基础知识的学习。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="什么是git"><a href="#什么是git" class="headerlink" title="什么是git"></a>什么是git</h2><p>在我们运用hexo搭建个人博客的时候，不难发现需要运用到一些关于github仓库的一些知识，因此在这里进行一些基础知识的学习。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;##什么是git&lt;/p&gt;
-&lt;p&gt;在我们运用hexo搭建个人博客的时候，不难发现需要运用到一些关于github仓库的一些知识，因此在这里进行一些基础知识的学习。&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h2 id=&quot;什么是git&quot;&gt;&lt;a href=&quot;#什么是git&quot; class=&quot;headerlink&quot; title=&quot;什么是git&quot;&gt;&lt;/a&gt;什么是git&lt;/h2&gt;&lt;p&gt;在我们运用hexo搭建个人博客的时候，不难发现需要运用到一些关于github仓库的一些知识，因此在这里进行一</summary>
       
     
     
