@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-19T03:42:12.626Z</updated>
+  <updated>2022-01-19T03:53:14.277Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,8 +21,16 @@
     <link href="http://example.com/2022/01/19/Basic-Math-For-AI/"/>
     <id>http://example.com/2022/01/19/Basic-Math-For-AI/</id>
     <published>2022-01-19T03:42:12.000Z</published>
-    <updated>2022-01-19T03:42:12.626Z</updated>
+    <updated>2022-01-19T03:53:14.277Z</updated>
     
+    <content type="html"><![CDATA[<p>众所周知，人工智能即AI是一个当今非常火热的</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;众所周知，人工智能即AI是一个当今非常火热的&lt;/p&gt;
+</summary>
+      
     
     
     
@@ -34,7 +42,7 @@
     <link href="http://example.com/2022/01/14/About-The-Git/"/>
     <id>http://example.com/2022/01/14/About-The-Git/</id>
     <published>2022-01-14T12:22:16.000Z</published>
-    <updated>2022-01-19T03:52:04.228Z</updated>
+    <updated>2022-01-19T04:02:58.426Z</updated>
     
     <content type="html"><![CDATA[<h2 id="关于git"><a href="#关于git" class="headerlink" title="关于git"></a>关于git</h2><p>在我们运用hexo搭建个人博客的时候，不难发现需要运用到一些关于github仓库的一些知识，因此在这里进行一些基础知识的学习。</p><p> 首先，git本身是一种<strong>分布式版本控制</strong>的系统，它没有”中央服务器“，每个人的电脑上都是一个完整的版本库而且具有高安全性。git是一款免费的，开源的分布式版本控制系统，github是用git做版本控制的代码托管平台。</p><h3 id="创建远程仓库"><a href="#创建远程仓库" class="headerlink" title="创建远程仓库"></a>创建远程仓库</h3><ol><li>确认秘钥的保存路径。</li><li>如果上一步置顶的保存路径下已经有秘钥文件，则需要确认是否覆盖。</li><li>创建密码。</li><li>确认密码。</li></ol><h3 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h3><ol><li> git status用于查看工作目录当前状态。</li><li> git add用于将修改放入暂存区。(git add.用于所有文件添加)。</li><li>  git commit -m用于将代码文件提交到本地仓库。</li><li>第一次使用时：git remote add origin+路径，添加远程仓库，仓库名为origin。</li><li>git push -u提交到github。</li><li>在github上创建-README md。</li><li>git pull origin master用于获取远程仓库变动并直接更新到本地仓库中。</li></ol><h3 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h3><p>如图：</p><p><img src="C:\Users\jerrrr\AppData\Roaming\Typora\typora-user-images\image-20220116192140249.png" alt="image-20220116192140249"></p><p><img src="C:\Users\jerrrr\AppData\Roaming\Typora\typora-user-images\image-20220116192358870.png" alt="image-20220116192358870"></p><h3 id="Git版本管理"><a href="#Git版本管理" class="headerlink" title="Git版本管理"></a>Git版本管理</h3><ol><li>git log命令显示从最近到最远的提交日志。</li><li> git reset –hard HEAD~2回退到前两个版本。</li><li>git reflog查看命令历史。</li><li>git reset –hard commit_id跳转到对应的版本。</li><li>git status查看当前状态。</li></ol><p><em>ps</em>:这是本人第一次写blog，有很多不足之处，还请大家多多包涵！</p>]]></content>
     
