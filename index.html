@@ -9,7 +9,90 @@
   },
   hexoVersion: '5.4.0'
 } </script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="JERRY's blog" type="application/atom+xml">
-</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="false"><div class="author-info"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Jerry Ren</div><div class="author-info__description text-center"></div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/USERNAME">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">3</span></a></div></div></div><nav id="nav" style="background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F123020113951%2F201230113951-1-1200.jpg&amp;refer=http%3A%2F%2Fimg.jj20.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1644738157&amp;t=0a3e38ccf19424d69fb8678eb1bf7a75.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">JERRY's blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"></span></div><div id="site-info"><div id="site-title">JERRY's blog</div><div id="site-sub-title"></div><div id="site-social-icons"><a class="social-icon" href="https://github.com" target="_blank" rel="noreferrer noopener nofollow"><i class="fa-github fa"></i></a><a class="social-icon" href="http://weibo.com" target="_blank" rel="noreferrer noopener nofollow"><i class="fa-weibo fa"></i></a><a class="social-icon" href="https://baidu.com" target="_blank" rel="noreferrer noopener nofollow"><i class="fa-rss fa"></i></a></div></div></nav><div id="content-outer"><div class="layout" id="content-inner"><div class="recent-post-item article-container"><a class="article-title" href="/2022/01/19/Basic-For-Python/">Basic For Python</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2022-01-19</time><div class="content"><p><strong>python</strong>开发环境的准备：<em>Anaconda</em>,<em>Jupyter Notebook</em>,<em>Spyder</em>。</p>
+</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="false"><div class="author-info"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Jerry Ren</div><div class="author-info__description text-center"></div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/USERNAME">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">4</span></a></div></div></div><nav id="nav" style="background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F123020113951%2F201230113951-1-1200.jpg&amp;refer=http%3A%2F%2Fimg.jj20.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1644738157&amp;t=0a3e38ccf19424d69fb8678eb1bf7a75.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">JERRY's blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"></span></div><div id="site-info"><div id="site-title">JERRY's blog</div><div id="site-sub-title"></div><div id="site-social-icons"><a class="social-icon" href="https://github.com" target="_blank" rel="noreferrer noopener nofollow"><i class="fa-github fa"></i></a><a class="social-icon" href="http://weibo.com" target="_blank" rel="noreferrer noopener nofollow"><i class="fa-weibo fa"></i></a><a class="social-icon" href="https://baidu.com" target="_blank" rel="noreferrer noopener nofollow"><i class="fa-rss fa"></i></a></div></div></nav><div id="content-outer"><div class="layout" id="content-inner"><div class="recent-post-item article-container"><a class="article-title" href="/2022/02/03/Basic-Math-For-AI/">Basic Math For AI</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2022-02-03</time><div class="content"><p>在简单的对python有了基础的了解之后，我们的下一步的目标是对机器学习和人工智能进行初步的了解，但是，需要知道的是，机器学习和人工智能中包含着大量的数学知识，如果不对这些基础的知识进行学习，日后的学习中将难以深入一些算法，因此在此处我们先对一些必须的基础数学知识进行了解。</p>
+<p>首先我们应该了解到，<strong>人工智能模型</strong>可以被理解成一个<strong>多元函数</strong>，有输入<strong>X</strong>，模型<strong>f(x)<strong>和输出</strong>Y</strong>。如图：</p>
+<p><img src="../pictures/image-20220205231110405.png" alt="image-20220205231110405"></p>
+<p>其次，我们了解到，对于图片来说，每一个图片都是像素的<strong>三维矩阵</strong>，其中拥有红绿蓝(<em>RGB</em>)的三通道，如图：</p>
+<p><img src="../pictures/image-20220206145122283.png" alt="image-20220206145122283"></p>
+<p><img src="../pictures/image-20220206145208783.png" alt="image-20220206145208783"></p>
+<p>关注，用A矩阵的转置和B矩阵相乘时：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">x=np.linspace(<span class="number">1</span>,<span class="number">10</span>,<span class="number">1000</span>)<span class="comment">#将1到10分成1000份</span></span><br><span class="line">A=np.array([[<span class="number">5</span>,<span class="number">2</span>][<span class="number">4</span>,<span class="number">3</span>][<span class="number">1</span>,<span class="number">1</span>]])</span><br><span class="line">B=np.array([[<span class="number">2</span>,<span class="number">7</span>][<span class="number">9</span>,<span class="number">3</span>][<span class="number">1</span>,<span class="number">5</span>]])</span><br><span class="line">np.dot(A.T,B)</span><br><span class="line">np.dot(A,B.T)</span><br></pre></td></tr></table></figure>
+
+<p>有关导数在机器学习中的应用：<strong>梯度下降</strong>,机器学习常常通过梯度下降来对模型函数进行优化。通过向函数上当前点的对应梯度（导数）的反方向的规定的步长距离点进行迭代搜索，直到在极小点收敛。</p>
+<p>在深度学习中，如图像识别，大部分的识别结果都是一个<strong>概率</strong>，因此概率与统计也被成为<em>AI模型的评估和优化</em>，其中，我们用<strong>平均值</strong>和<strong>标准差</strong>来评估模型的表现（如猫狗识别）和优化输入数据（如预测房价对输入数据进行归一化）。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#生成随机数</span></span><br><span class="line">np.random.randn(<span class="number">10000</span>)<span class="comment">#高斯分布，平均值为0，标准差为1</span></span><br><span class="line">np.random.randn(<span class="number">10000</span>)*<span class="number">2</span><span class="comment">#平均值为0，标准差为2</span></span><br><span class="line">np.random.randn(<span class="number">10000</span>)+<span class="number">1</span><span class="comment">#平均值为1，标准差为1</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tmp=np.random.randn(<span class="number">10000</span>)</span><br><span class="line">np.<span class="built_in">sum</span>(tmp&gt;<span class="number">0</span>)<span class="comment">#接近5000</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="../pictures/image-20220207220907537.png" alt="image-20220207220907537"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#蒙特卡洛近似</span></span><br><span class="line">dots=np.random.rand(<span class="number">10000</span>,<span class="number">2</span>)<span class="comment">#等效为坐标</span></span><br><span class="line"><span class="comment">#随机分布一定位于0到1，而高斯分布则不是。</span></span><br><span class="line">rad=np.sqrt(dots[:,<span class="number">0</span>]**<span class="number">2</span>+dots[:,<span class="number">1</span>]**<span class="number">2</span>)<span class="comment">#通过x,y坐标平方取根求半径</span></span><br><span class="line">np.<span class="built_in">sum</span>(rad&lt;=<span class="number">1</span>)<span class="comment">#可以估算Π</span></span><br></pre></td></tr></table></figure>
+
+<p>接着是机器学习与深度学习的模块，其中，<strong>深度学习</strong>包括：</p>
+<ol>
+<li>全连接神经网络。</li>
+<li>卷积神经网络。</li>
+<li>循环神经网络。</li>
+</ol>
+<p><strong>机器学习</strong>的本质：以数据为驱动，自主的从数据种寻找规律的方法。</p>
+<ol>
+<li>更少的人为假设和定义。</li>
+<li>更灵活的应用。</li>
+<li>更高的准确度。</li>
+</ol>
+<p>通过<strong>机器学习</strong>可以获得<strong>模型</strong>，常见的<strong>机器学习</strong>的方法有：</p>
+<ol>
+<li>非监督学习。(聚类)</li>
+<li>监督学习。(分类，量化预测)</li>
+<li>强化学习。(无初始数据)</li>
+<li>优化。</li>
+</ol>
+<p><strong>回归</strong>：根据已有的数据，建立因变量Y和自变量X的定量（函数）关系的模型。</p>
+<p>通过<strong>均方误差</strong>来评价回归模型的好坏。</p>
+<p>求解线性回归有两个方法，分别是<strong>最小二乘法</strong>和<strong>梯度下降法</strong>。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line">%pip install sklearn</span><br><span class="line"><span class="keyword">import</span> sklearn</span><br><span class="line">x=np.linspace(<span class="number">1</span>,<span class="number">100</span>,<span class="number">100</span>)</span><br><span class="line">y=<span class="number">5</span>*x+<span class="number">10</span>+<span class="number">10</span>*np.random.randn(<span class="number">100</span>)</span><br><span class="line">plt.plot(x,y,<span class="string">&quot;.k&quot;</span>)<span class="comment">#黑色点图</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="../pictures/image-20220208224733637.png" alt="image-20220208224733637"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line">model=LinearRegression()</span><br><span class="line"></span><br><span class="line">model.fit(x.reshape(<span class="number">100</span>,<span class="number">1</span>),y.reshape(<span class="number">100</span>,<span class="number">1</span>))<span class="comment">#若不进行reshape则无法进行运算</span></span><br><span class="line">y_p=model.predict(x.reshape(<span class="number">100</span>,<span class="number">1</span>))</span><br><span class="line">plt.plot(x,y,<span class="string">&quot;.k&quot;</span>)</span><br><span class="line">plt.plot(x,y_p,<span class="string">&quot;b&quot;</span>)<span class="comment">#蓝线</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="../pictures/image-20220209142350814.png" alt="image-20220209142350814"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#模型预测：</span></span><br><span class="line">model.predict(np.array(<span class="number">10</span>).reshape(<span class="number">1</span>,<span class="number">1</span>))<span class="comment">#注意要进行reshape!</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>读入外部数据多元线性回归</strong>：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">data=pd.read_csv(<span class="string">&quot;data.csv&quot;</span>)</span><br><span class="line">x=data[:,<span class="number">1</span>:<span class="number">3</span>]<span class="comment">#1至3列</span></span><br><span class="line">y=data[:,<span class="number">3</span>]<span class="comment">#第三列</span></span><br><span class="line"></span><br><span class="line">form sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line">model=LinearRegression()</span><br><span class="line">model.fit(x,y)<span class="comment">#训练</span></span><br><span class="line"></span><br><span class="line">predict=model.predict(x)</span><br><span class="line">plt.plot(y,predict,<span class="string">&quot;.b&quot;</span>)<span class="comment">#真实值为x轴，预测值为y轴</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="../pictures/image-20220209164309337.png" alt="image-20220209164309337"></p>
+<p>由此可见拟合度是较好的。</p>
+<p>计算误差如下：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">diff=predict-y</span><br><span class="line">mae=np.mean(np.<span class="built_in">abs</span>(diff))<span class="comment">#平均误差</span></span><br><span class="line">rmse=np.sqrt(np.mean(diff**<span class="number">2</span>))<span class="comment">#均方误差</span></span><br></pre></td></tr></table></figure>
+
+<p>关于<strong>逻辑运算</strong>：<strong>逻辑运算</strong>又称为布尔运算，是通过数学方法研究逻辑问题来建立了逻辑演算。</p>
+<p><strong>布尔值</strong>：是(True,1)，否(False,0)</p>
+<p><strong>逻辑运算</strong>常用来搭建AI配套模型来实现具体应用。</p>
+<p><strong>深度强化学习</strong>：深度强化学习神经网络模型+强化学习方法。</p>
+<p><strong>马尔科夫链</strong>：状态空间中经过从一个状态到另一个状态的转换的随机过程，下一状态的概率分布只能由当前状态决定，且与它前面的事件均无关。</p>
+<p>数学表达为：</p>
+<p><img src="../pictures/image-20220209223825640.png" alt="image-20220209223825640"></p>
+<p>假设有三种天气状态（晴天、阴天、下雨），在第二天的状态只取决于前一天的天气状态。</p>
+<ol>
+<li>第一天晴天，第二天70%晴天，20%阴天，10%下雨。</li>
+<li>第一天阴天，第二天40%晴天，40%阴天，20%下雨。</li>
+<li>第一天下雨，第二天20%晴天，40%阴天，40%下雨。</li>
+</ol>
+<p><strong>状态转移矩阵</strong>可写为：</p>
+<p><img src="../pictures/image-20220209225144605.png" alt="image-20220209225144605"></p>
+<p>用已知概率和状态转移矩阵相乘，可以得到对应的预测的概率。</p>
+<p>马尔科夫链<strong>收敛和平稳的条件</strong>：</p>
+<ol>
+<li>可能的状态数是有限的。</li>
+<li>状态间的转移概率需要固定不变。</li>
+<li>从任意状态能够转变到任意状态。</li>
+<li>不能是简单的循环，例如全是从x到y再从y到x。</li>
+</ol>
+<p>关于<strong>马尔科夫奖励过程</strong>：<br>马尔科夫过程主要描述的是状态之间的转移关系，在各个状态的转移过程中赋予不同的奖励值就得到了马尔科夫奖励过程。有一个四元组组成(S,P,R,y)</p>
+<p>S表示状态集合，P表示状态转移矩阵，R表示奖励函数，y表示衰减因子(0-1)。</p>
+<p><strong>马尔科夫决策过程</strong>：相比于马尔科夫奖励过程多了一个动作A，A表示决策过程的集合。</p>
+<p><strong>强化学习</strong>的目标就是最大化期望回报，相应的结果就是找到从状态空间S映射到动作空间A的最优策略。</p>
+</div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2022/01/19/Basic-For-Python/">Basic For Python</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2022-01-19</time><div class="content"><p><strong>python</strong>开发环境的准备：<em>Anaconda</em>,<em>Jupyter Notebook</em>,<em>Spyder</em>。</p>
 <p><em>Numpy</em>,<em>Pandas</em>,和<em>Matplotlib</em>的使用也是在<strong>python</strong>学习中非常重要的部分。</p>
 <p>本人在按照教程安装完<strong>anaconda</strong>环境以及对应的<strong>ide</strong>：<em>jupyter notebook</em>之后开始正式的<strong>python</strong>的学习。</p>
 <p>(<em>注</em>：在本篇博客中，仅对python的各个功能进行最基础的了解。)</p>
@@ -109,6 +192,8 @@
 
 <p>爬虫静态网站实战：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line">form bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line">url=<span class="comment">#静态网站网址定义</span></span><br><span class="line">header=&#123;<span class="string">&quot;user-agent&quot;</span>:<span class="string">&quot;Mozilla/5.0&quot;</span>&#125;<span class="comment">#反爬机制</span></span><br><span class="line">data=requests.get(url=url,headers=header)</span><br><span class="line">html=data.text</span><br><span class="line"><span class="comment">#可以运用chrome中的开发者工具</span></span><br><span class="line"></span><br><span class="line">soup=BeautifulSoup(html,<span class="string">&quot;lxml&quot;</span>)</span><br><span class="line">lis=soup.find_all(name=<span class="string">&quot;div&quot;</span>,attrs=<span class="string">&quot;id&quot;</span>:<span class="string">&quot;row355&quot;</span>)</span><br><span class="line"></span><br><span class="line">i=<span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> li <span class="keyword">in</span> lis:</span><br><span class="line">    temp=li.find(name=<span class="string">&quot;div&quot;</span>,attrs=&#123;<span class="string">&quot;_index&quot;</span>:<span class="built_in">str</span>(i)&#125;)</span><br><span class="line">	i=i+<span class="number">1</span></span><br><span class="line">    <span class="built_in">print</span>(temp.text)</span><br></pre></td></tr></table></figure>
+
+
 
 
 
